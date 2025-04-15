@@ -5,6 +5,7 @@ import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Howitwork from "@/components/howitwork";
 import { Metadata } from "next";
+import { app, analytics } from "@/lib/firebase";
 
 export const metadata: Metadata = {
   title: "AI Action Figure Generator with Chatgpt 4o image Feature",
