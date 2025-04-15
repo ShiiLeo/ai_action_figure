@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   title: "AI Action Figure Generator with Chatgpt 4o image Feature",
   description:
     "Transform your photos into custom action figures using our AI-powered generator. No design skills needed—just upload a photo and describe your desired look. Generate your unique digital toy in minutes!",
+
+  alternates: {
+    canonical: "https://aifigure.net/",
+  },
 };
 
 export default function Home() {
